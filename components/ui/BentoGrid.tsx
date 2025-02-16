@@ -1,15 +1,11 @@
 // import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
-import {GradientBg} from '@/components/ui/GradientBg' 
-// Also install this npm i --save-dev @types/react-lottie
-// import Lottie from "react-lottie";
+import Lottie from "react-lottie";
+import { cn } from "@/utils/cn";
+import { BackgroundGradientAnimation } from "./GradientBg";
 
-// import { cn } from "@/lib/utils";
-
-// import { BackgroundGradientAnimation } from "./GradientBg";
-// import GridGlobe from "./GridGlobe";
 // import animationData from "@/data/confetti.json";
-// import MagicButton from "../MagicButton";
+import MagicButton from "./MagicButton";
 
 export const BentoGrid = ({
   className,
@@ -107,9 +103,9 @@ export const BentoGridItem = ({
         </div>
           <div>
             {id===6 &&(
-              <GradientBg>
+              <BackgroundGradientAnimation>
                 <div className="absolute z-50 justify-center items-center text-white"/>
-              </GradientBg>
+              </BackgroundGradientAnimation>
             )}
           </div>
         <div
@@ -125,7 +121,7 @@ export const BentoGridItem = ({
             {title}
           </div>
 
-          {/* {id === 2 && <GridGlobe />} */}
+          
 
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
