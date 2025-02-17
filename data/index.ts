@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a MERN Project",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,34 +72,34 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "Dobicon - E-Commerce Website ",
+    des: "A fully functional e-commerce website for clothing, built with React.js frontend and Node.js, Express.js, and MongoDB backend",
+    img: "/DobiconSS.jpg",
+    iconLists: ["/react.png", "/node.png", "/express.png", "/mongodb.png", "/css.png"],
+    link: "https://github.com/ibrahim123-sia/Dobicon",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "Nowhere - Online Store ",
+    des: "A fast, secure, and user-friendly online store for seamless shopping and easy checkout",
+    img: "/Nowhere.jpg",
+    iconLists: ["/react.png", "/node.png", "/express.png", "/mongodb.png", "/tailwind.png","/vite.png"],
+    link: "https://github.com/ibrahim123-sia/Nowhere",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "Education Portal - Educational Application",
+    des: "I built a comprehensive education management system with dedicated admin, teacher, and student interfaces to streamline school operations efficiently",
+    img: "/EducationSS.jpg",
+    iconLists: ["/react.png", "/node.png", "/express.png", "/mssql.png","/css.png"],
+    link: "https://github.com/ibrahim123-sia/Education-Portal",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    title: "2D car game",
+    des: "a 2D car game developed using C# on Windows Forms!",
+    img: "/2Dcargame.jpg",
+    iconLists: ["/c.png"],
     link: "https://github.com/adrianhajdin/iphone",
   },
 ];
@@ -107,34 +107,35 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+      "Working with Ibrahim Ali was a seamless experience. His keen eye for detail, technical expertise, and ability to transform ideas into reality were truly remarkable. He went above and beyond to ensure our project's success.",
+    name: "Adnan Kamal",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Ibrahim Ali’s commitment to excellence is unmatched. His ability to quickly grasp our requirements and deliver high-quality solutions made all the difference. I highly recommend him for any web development project.",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "CEO of WebCore Solutions",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ibrahim is not only a talented developer but also a great problem-solver. He tackled complex challenges with ease and provided innovative solutions that enhanced our website’s performance.",
+    name: "Sarah Thompson",
+    title: "Founder of Creative Minds Agency",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "What sets Ibrahim apart is his dedication to client satisfaction. He communicates clearly, delivers on time, and ensures that every detail is polished. His work exceeded our expectations.",
+    name: "David Reynolds",
+    title: "Product Manager at NexaTech",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ibrahim is a true professional. His technical skills, coupled with his creativity and adaptability, made our collaboration a great success. If you're looking for a reliable developer, look no further.",
+    name: "Jessica Carter",
+    title: "COO of Innovate Digital",
   },
+  
 ];
 
 export const companies = [
@@ -173,32 +174,33 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Developer (Internship)",
+    desc: "Assisted in developing a web-based platform using React.js and Tailwind CSS, improving UI/UX and interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
-  },
-  {
+},
+{
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Freelance MERN Stack Developer",
+    desc: "Built multiple web applications using MongoDB, Express.js, React, and Node.js, ensuring responsive design with Tailwind CSS.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
-  },
-  {
+},
+{
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Freelance Web Developer (MS SQL Integration)",
+    desc: "Developed and deployed full-stack applications integrating MERN with SQL for structured data management and optimized performance.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
-  },
-  {
+},
+{
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Freelance Full-Stack Web Developer",
+    desc: "Designed and maintained full-stack applications using React, Node.js, and Express, incorporating Tailwind CSS for modern UI design.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
-  },
+},
+
 ];
 
 export const socialMedia = [
